@@ -1,0 +1,104 @@
+/* wrapper */
+#wrapper {
+	display:block;
+	position:relative;
+	max-width:1600px;
+	margin: 0 auto;
+	height:100%;
+  background-color: #ebebeb;
+  overflow: hidden;
+	.raindow_top_left{
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		img{
+			top: 0;
+			left: 0;
+		}
+	}
+	footer{
+		display: block;
+		width: 100%;
+		height: 74px;
+		p{
+			line-height: 74px;
+			text-align: center;
+			color: #6a6666;
+			font-size: 16px;
+			font-weight: 300;
+		}
+	}
+}
+.layout_grey {
+	z-index:362 ;
+  display: flex;
+	margin: 0 auto;
+	position:relative;
+	height: 100%;
+	width:1054px;
+	padding-right: 14px;
+  background-color: #ebebeb;
+  overflow:visible;
+	.raindow_right{;
+		position: relative;
+		width: 16px;
+		img{
+			position: absolute;
+			right: 0;
+			&:nth-child(2){
+				top: 30%;
+			}
+			&:nth-child(3){
+				bottom: 5%;
+			}
+		}
+	}
+}
+.layout_small {
+	z-index: 333535;
+  display: block;
+	margin: 0 auto;
+	position: relative;
+	width:990px;
+  background-color: #fff;
+  overflow: visible;
+}
+.layout {
+	z-index: 367573;
+  display: block;
+	margin: 0 auto;
+	position:relative;
+	width:1054px;
+  background-color: #fff;
+  overflow: visible;
+}
+
+.bg_blue{
+	background-color: #00aedb;
+}
+.bg_orange{
+	background-color: #f78f1d;
+}
+.bg_ping{
+	background-color:#ec098d;
+}
+.bg_caption{
+	width: 100%;
+	height: 36px;
+	background-color: #5261ac;
+	h3{
+		margin-left: 16px;
+		color: #ffffff;
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 36px;
+		text-transform: uppercase;
+	}
+}
+.rainbow{
+	height: 5px;
+	width: 100%;
+	background-image: url("../images/raindow.png");
+	background-repeat: repeat;
+}

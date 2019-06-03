@@ -1,0 +1,460 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative; }
+  main h3 {
+    width: 100%;
+    color: #00aedb;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase; }
+  main .slider_click {
+    width: 100%;
+    position: relative; }
+    main .slider_click img {
+      position: relative;
+      width: 325px; }
+    main .slider_click .category {
+      margin-top: 1px;
+      width: 99%;
+      height: 36px; }
+      main .slider_click .category h3 {
+        padding-left: 30px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 37px;
+        text-transform: uppercase;
+        background-image: url("../images/white_triangle.png");
+        background-repeat: no-repeat;
+        background-position: 5% 50%; }
+    main .slider_click p {
+      width: 275px;
+      color: #6a6666;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px; }
+  main .block {
+    width: 100%; }
+    main .block .content {
+      display: inline-block;
+      width: 61.3%;
+      float: left;
+      position: relative; }
+      main .block .content .month_day {
+        position: absolute;
+        display: block;
+        left: -70px;
+        top: 10px;
+        margin-top: 10px; }
+        main .block .content .month_day .day {
+          display: block;
+          width: 68px;
+          height: 46px;
+          background-color: #f78f1d; }
+          main .block .content .month_day .day h3 {
+            text-align: center;
+            color: #ebebeb;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 46px;
+            text-transform: uppercase; }
+        main .block .content .month_day .month {
+          width: 62px;
+          height: 27px;
+          background-color: #00aedb;
+          float: right; }
+          main .block .content .month_day .month h4 {
+            color: #ebebeb;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 27px;
+            text-transform: uppercase;
+            text-align: center; }
+      main .block .content h2 {
+        margin-top: 10px;
+        line-height: 47px;
+        color: #000;
+        font-size: 35px;
+        font-weight: 700; }
+      main .block .content p {
+        color: #494949;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px; }
+      main .block .content .flexslider {
+        overflow: hidden;
+        margin-top: 34px;
+        height: 100%;
+        width: 95%;
+        margin: 0; }
+        main .block .content .flexslider .slides {
+          position: relative; }
+      main .block .content .comments {
+        display: block;
+        width: 95%;
+        margin-top: 10px; }
+        main .block .content .comments li {
+          display: inline-block;
+          color: #6a6666;
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 20px; }
+        main .block .content .comments li:nth-child(2) {
+          margin-left: 24px;
+          width: 120px;
+          background-image: url("../images/ico-mess.png");
+          background-repeat: no-repeat;
+          text-align: right; }
+        main .block .content .comments li:nth-child(3) {
+          float: right;
+          margin-right: 14px; }
+        main .block .content .comments li:nth-child(4) {
+          margin: 6px 0 6px;
+          color: #6a6666;
+          height: 100%;
+          width: 100%; }
+        main .block .content .comments a {
+          margin: 6px 0 6px;
+          color: #6a6666;
+          height: 100%;
+          width: 100%; }
+      main .block .content a {
+        width: 100%;
+        color: #6a6666;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px; }
+    main .block aside {
+      position: relative;
+      margin-top: 10px;
+      float: right;
+      display: inline-block;
+      width: 37%; }
+      main .block aside .top_stories {
+        margin-top: 10px;
+        width: 199px;
+        height: 36px;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-image: url("../images/stories.png"); }
+        main .block aside .top_stories h3 {
+          z-index: 777;
+          padding-left: 14px;
+          margin-bottom: 4px;
+          color: #ffffff;
+          font-size: 19px;
+          font-weight: 700;
+          line-height: 37px;
+          text-transform: uppercase; }
+      main .block aside ul {
+        margin-top: 4px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        height: 36px;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        main .block aside ul li {
+          line-height: 36px;
+          height: 36px;
+          width: 33.333%;
+          text-align: center;
+          color: #ffffff;
+          font-size: 19px;
+          font-weight: 400;
+          text-transform: uppercase;
+          cursor: pointer; }
+        main .block aside ul .fashion {
+          background-color: #ec098d; }
+        main .block aside ul .cinema {
+          background-color: #f78f1d; }
+        main .block aside ul .television {
+          background-color: #00aedb; }
+      main .block aside .after {
+        height: 10px;
+        width: 100%;
+        display: inline-block;
+        margin: -2px; }
+        main .block aside .after .after-fashion {
+          position: relative;
+          width: 100%;
+          float: left;
+          height: 10px;
+          line-height: 0;
+          margin-top: -5px;
+          display: block; }
+          main .block aside .after .after-fashion img {
+            position: absolute;
+            top: 0;
+            left: 15%; }
+        main .block aside .after .after-cinema {
+          float: left;
+          position: relative;
+          width: 100%;
+          height: 10px;
+          line-height: 0;
+          margin-top: -5px;
+          display: none; }
+          main .block aside .after .after-cinema img {
+            position: absolute;
+            top: 0;
+            left: 50%; }
+        main .block aside .after .after-television {
+          position: relative;
+          width: 100%;
+          float: left;
+          height: 10px;
+          line-height: 0;
+          margin-top: -5px;
+          display: none; }
+          main .block aside .after .after-television img {
+            position: absolute;
+            top: 0;
+            right: 15%; }
+      main .block aside .fashion_con {
+        display: block; }
+        main .block aside .fashion_con .content2 {
+          padding: 0 0 14px;
+          display: block;
+          width: 100%;
+          height: 100px;
+          border-bottom: 1px solid #dedddd; }
+          main .block aside .fashion_con .content2:nth-child(n+2) {
+            margin-top: 10px; }
+          main .block aside .fashion_con .content2 a {
+            display: inline-block; }
+            main .block aside .fashion_con .content2 a img {
+              float: left; }
+          main .block aside .fashion_con .content2 h3 {
+            float: right;
+            display: block;
+            color: #00aedb;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            width: 75%; }
+            main .block aside .fashion_con .content2 h3 a {
+              color: #00aedb;
+              text-decoration: none; }
+          main .block aside .fashion_con .content2 p {
+            width: 75%;
+            display: inline-block;
+            float: right;
+            height: 47px;
+            color: #494949;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+            overflow: hidden;
+            margin-top: -60px; }
+      main .block aside .cinema_con {
+        display: none; }
+        main .block aside .cinema_con .content2 {
+          padding: 0 0 14px;
+          display: block;
+          width: 100%;
+          height: 100px;
+          border-bottom: 1px solid #dedddd; }
+          main .block aside .cinema_con .content2:nth-child(n+2) {
+            margin-top: 10px; }
+          main .block aside .cinema_con .content2 a {
+            display: inline-block; }
+            main .block aside .cinema_con .content2 a img {
+              float: left; }
+          main .block aside .cinema_con .content2 h3 {
+            float: right;
+            display: block;
+            color: #00aedb;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            width: 75%; }
+            main .block aside .cinema_con .content2 h3 a {
+              color: #00aedb;
+              text-decoration: none; }
+          main .block aside .cinema_con .content2 p {
+            width: 75%;
+            display: inline-block;
+            float: right;
+            height: 47px;
+            color: #494949;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+            overflow: hidden;
+            margin-top: -60px; }
+      main .block aside .television_con {
+        display: none; }
+        main .block aside .television_con .content2 {
+          padding: 0 0 14px;
+          display: block;
+          width: 100%;
+          height: 100px;
+          border-bottom: 1px solid #dedddd; }
+          main .block aside .television_con .content2:nth-child(n+2) {
+            margin-top: 10px; }
+          main .block aside .television_con .content2 a {
+            display: inline-block; }
+            main .block aside .television_con .content2 a img {
+              float: left; }
+          main .block aside .television_con .content2 h3 {
+            float: right;
+            display: block;
+            color: #00aedb;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+            width: 75%; }
+            main .block aside .television_con .content2 h3 a {
+              color: #00aedb;
+              text-decoration: none; }
+          main .block aside .television_con .content2 p {
+            width: 75%;
+            display: inline-block;
+            float: right;
+            height: 47px;
+            color: #494949;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+            overflow: hidden;
+            margin-top: -60px; }
+      main .block aside:nth-child(n+1) {
+        margin-top: 10px; }
+      main .block aside .YOU_MIGHT_ALSO_LIKE {
+        display: block;
+        width: 100%; }
+        main .block aside .YOU_MIGHT_ALSO_LIKE .Medication {
+          display: inline-block;
+          width: 100%;
+          margin-top: 10px; }
+          main .block aside .YOU_MIGHT_ALSO_LIKE .Medication img {
+            width: 75px;
+            height: 75px;
+            -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0.24);
+            border: 3px solid #ffffff;
+            float: left; }
+          main .block aside .YOU_MIGHT_ALSO_LIKE .Medication p {
+            display: inline-block;
+            width: 221px;
+            color: #494949;
+            font-size: 13px;
+            font-weight: 300;
+            vertical-align: text-top;
+            float: left;
+            margin-top: 10px;
+            line-height: 17px; }
+          main .block aside .YOU_MIGHT_ALSO_LIKE .Medication a {
+            color: #00aedb;
+            font-weight: 400;
+            line-height: 28px; }
+      main .block aside .Archives {
+        width: 100%;
+        display: block;
+        margin-top: 10px; }
+        main .block aside .Archives p {
+          margin-top: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #dedddd;
+          padding-left: 30px;
+          display: block;
+          width: 303px;
+          color: #494949;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 17px;
+          background-image: url("../images/bg-bl.png");
+          background-repeat: no-repeat;
+          background-position: 5% 15%; }
+      main .block aside .tag {
+        width: 100%;
+        display: block; }
+        main .block aside .tag img {
+          padding: 10px 0 10px;
+          width: 100%; }
+    main .block .block_comment {
+      width: 61%;
+      display: block;
+      float: left; }
+      main .block .block_comment p {
+        margin-top: 20px;
+        display: block;
+        color: #494949;
+        font-size: 14px;
+        font-weight: 300;
+        vertical-align: text-top;
+        line-height: 20px; }
+      main .block .block_comment .Related_Articles {
+        margin: 30px 0 20px;
+        width: 100%;
+        margin-left: -24px;
+        height: 36px;
+        background-image: url("../images/bg_bl_big.png");
+        background-repeat: no-repeat; }
+        main .block .block_comment .Related_Articles h3 {
+          padding-left: 22px;
+          color: #ffffff;
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 37px;
+          text-transform: uppercase; }
+      main .block .block_comment .Articles {
+        width: 100%;
+        display: inline-block; }
+        main .block .block_comment .Articles p {
+          margin: 0;
+          width: 45%;
+          padding-left: 26px;
+          height: 30px;
+          line-height: 30px;
+          float: left;
+          display: block;
+          vertical-align: text-top;
+          color: #494949;
+          font-size: 13px;
+          font-weight: 300;
+          background-image: url("../images/bg-bl.png");
+          background-repeat: no-repeat;
+          background-position: 5% 50%; }
+          main .block .block_comment .Articles p:nth-child(2n) {
+            float: right; }
+
+.flex-viewport {
+  width: 626px;
+  height: 377px;
+  overflow: hidden; }
+
+.flex-control-thumbs li img {
+  width: 150px;
+  height: 150px; }
+
+.flexslider ol {
+  width: 100%; }
+
+.sliderrr {
+  display: inline-block;
+  width: 1000px;
+  height: 500px; }
+
+.multiple-items {
+  height: 100%; }
